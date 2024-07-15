@@ -9,11 +9,11 @@ public class AddUserRequest {
 	public String name;
 	public String lastname;
 	public String email;
-	public String age;
+	public int age;
 	public String gender;
 	public String password;
 
-	public AddUserRequest(int user_id, String name, String email, String address, String username, String password, String lastname, String age, String gender) {
+	public AddUserRequest(String name, String email, String password, String lastname, int age, String gender) {
 
 		this.name = name;
 		this.lastname = lastname;
